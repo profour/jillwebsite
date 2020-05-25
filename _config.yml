@@ -1,8 +1,8 @@
-
 # Site settings
 
 # NB! Set your site's url, otherwise stuff will break :)
 
+#url: "https://www.drjillianmclaughlin.com"
 url: "https://profour.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
@@ -12,6 +12,7 @@ url: "https://profour.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
+#baseurl: /
 baseurl: /jillwebsite
 
 # Google tracking id
@@ -32,7 +33,7 @@ lang: "en"
 author: "Dr. Jillian McLaughlin"
 title: "Dr. Jillian McLaughlin"
 description: "Insert a short description here."
-keywords: "smith, jones, personal, jekyll, theme"
+keywords: "mclaughlin, jillian, dr. jillian mclaughlin, surgery"
 favicon: "/img/favicon.ico"
 
 ################
@@ -43,26 +44,6 @@ background-img: "../img/generic-bg.jpg"
 
 # Change to headshot image
 me-img: "/img/me.png"
-
-# To use facebook profile pic comment the previous line and uncomment the following
-# line, and replace 'user_id' with your facebook user id.
-# Facebook user id can be found by clicking on your profile pic and the large number
-# in the end of the url just before '&type' is your user id.
-# Note: fbid is not the same as user id and user id only contains numbers
-
-# me-img: "https://graph.facebook.com/user_id/picture?type=large&width=500&height=500"
-
-# To use github profile pic uncomment the following line and replace 'user_name'
-# with your github user name.
-
-# me-img: "https://github.com/user_name.png?size=500"
-
-# To use gravatar profile pic uncomment the following line and replace 'email_hash'
-# with your gravatar profile email hash.
-# You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
-# just enter your email and it will generate the hash.
-
-# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
 
 ##############################
 # Color the browser elements #
@@ -98,48 +79,21 @@ paginate: 0
 email-share: True
 fb-share: True
 twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+linkedin-share: False
+reddit-share: False
+google-plus-share: False
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
 
 syntax-highlight: True
-
-############
-# Timeline #
-############
-
-events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
-
-# First image of the Timeline
-
-timeline-img: "/img/timeline/default.png"
 
 ###########
 # Contact #
 ###########
 
-email: "your@email.here"
-
-################
-# Author Blurb #
-################
-
-# The author blurb goes underneath blog posts.
-# This works best when your author blurb image has a transparent background, or matches your site background color.
-
-# if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+email: "jillianmclaughlinmd@gmail.com"
 
 ##################
 # Social Buttons #
@@ -157,14 +111,6 @@ social:
 
 err-404-img: "/img/labtocat.png"
 
-##################
-# GPG on Keybase #
-##################
-
-keybase-username: johnsmith
-keybase-in-social: False
-keybase-in-footer: False
-
 ################################################################################
 
 # NB! Tread carefully if you want to change the variables below this point!
@@ -172,16 +118,12 @@ keybase-in-footer: False
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
-  Contact: 'contact'
+  About: "about"
+  Contact: "contact"
 
 # Exclusion list from the generated _site
 
 exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
-
-# Pagination path
-
-paginate_path: "blog/page:num/"
 
 # Enable minification SASS
 
