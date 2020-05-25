@@ -29,8 +29,8 @@ force-https: True
 #############
 
 lang: "en"
-author: "Jill McLaughlin"
-title: "Jill McLaughlin"
+author: "Dr. Jillian McLaughlin"
+title: "Dr. Jillian McLaughlin"
 description: "Insert a short description here."
 keywords: "smith, jones, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
