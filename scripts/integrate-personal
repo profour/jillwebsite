@@ -6,7 +6,7 @@ require 'fileutils'
 
 personal = "../personal-jekyll-theme"
 
-repoDirectories = [ '_includes', '_layouts', '_sass', 'blog', 'css', 'js' ]
+repoDirectories = [ '_includes', '_layouts', '_sass', 'css', 'js' ]
 repoFiles = [ 'feed.xml', 'manifest.json', 'sitemap.xml' ]
 
 # Delete local resources of { Personal }
